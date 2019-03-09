@@ -28,7 +28,7 @@ a {
   -o-transition: .3s all ease;
   transition: .3s all ease; }
   a:hover {
-    text-decoration: none; }
+    text-decoration: none;}
 
 .font-secondary, h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
@@ -260,7 +260,8 @@ a {
         font-size: 15px;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
-          color: #000; }
+          color: #034223;
+          font-size: 1.25em; }
       .site-navbar .site-navigation .site-menu > li:last-child {
         padding-right: 0; }
         .site-navbar .site-navigation .site-menu > li:last-child > a {
