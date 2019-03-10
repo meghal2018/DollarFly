@@ -5,3 +5,52 @@
     background-color: transparent;
     width: 100%;
 }
+.fas, .fa-question-circle, .fa-user-circle, .fa-wallet{
+    color: #034223;
+}
+
+.fas:hover{
+    color:black;
+}
+
+.navbar{
+    background-color: #fff ;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #034223;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#034223;
+}
+
+.site-wrap{
+    background-color: #ecedee;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.section-divider {
+    height: 0;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border-top: 1px solid #034223 ; }
+
+.site-color{
+    color: #034223;
+}
+
+.site-color-white{
+    color:#fff;
+}
+
+
+
+
+.btn-primary:hover{
+    background-color: black;
+    border-color: black;
+}

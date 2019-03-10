@@ -111,19 +111,19 @@ a {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
 
-.site-section {
+. {
   padding: 3em 0; }
   @media (min-width: 768px) {
-    .site-section {
+    . {
       padding: 7em 0; } }
-  .site-section.site-section-sm {
+  ..-sm {
     padding: 4em 0; }
 
-.site-section-heading {
+.-heading {
   font-size: 30px;
   position: relative;
   padding-bottom: 20px; }
-  .site-section-heading:before {
+  .-heading:before {
     content: "";
     left: 0%;
     bottom: 0;
@@ -131,7 +131,7 @@ a {
     width: 40px;
     height: 2px;
     background: #034223; }
-  .site-section-heading.text-center:before {
+  .-heading.text-center:before {
     content: "";
     left: 50%;
     bottom: 0;
