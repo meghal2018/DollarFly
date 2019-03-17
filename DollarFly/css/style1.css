@@ -129,8 +129,26 @@
     margin-top: -20px;
   }
 
-.site-card-height{
-    height: 480px;
+.site-card{
     position: relative;
+    border-radius: 10px;
   }
 
+.site-card-header{
+    height:18%;
+}
+
+.site-card-content{
+    height:62%;
+}
+
+.site-card-footer{
+    height:20%;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .site-card {
+      height: 480px
+    }
+  }
