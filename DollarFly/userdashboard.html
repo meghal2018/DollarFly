@@ -35,7 +35,7 @@
 <body style="background-image: url('images/bg.jpg');">
 
   <div class="site-wrap">
-
+    <header>
     <!--Menu button and structure of mobile navigation-->
     <div class="site-mobile-menu d-sm-none">
       <div class="site-mobile-menu-header">
@@ -111,6 +111,7 @@
         </div>
       </div>
     </nav>
+    </header>
 
     <!--Main Content of the website-->
 
@@ -130,16 +131,17 @@
             </h2>
             <div class="section-divider" style="border-color: white"> </div>
             <h4 class="px-3  text-white ">
-              <span class="d-none d-md-block">Your wallet balance is 225.00$</span>
-              <span class="d-block d-md-none ">Balance: 125.00 $</span>
+              <span class="d-none d-md-block">Your wallet balance is $225.00</span>
+              <span class="d-block d-md-none ">Balance: $125.00 $</span>
             </h4>
           </div>
           <div class="row">
-              <div class=" col-sm-5 my-3 mr-3 bg-white shadow site-card-height">
-                  <div>
-                    <h2 class=" p-3 site-section-heading site-color text-center">Recent Activity </h2>
+              <div class=" col-sm-5 my-3 mr-3 bg-white shadow site-card-height ">
+                  <div class="tile-header">
+                    <h2 class="p-3 site-section-heading site-color text-center">Recent Activity </h2>
+                    <div class="section-divider"></div>
                   </div>
-                  <div class="section-divider"></div>
+                 
                   <div class="row px-md-5">
                     <div class="col-3 ">
                       <p class="text-left">Jan,03</p>
@@ -148,7 +150,7 @@
                       <p class="text-left">Daniel Norman</p>
                     </div>
                     <div class="col-3">
-                      <p class="text-right">58.23</p>
+                      <p class="text-right">$58.23</p>
                     </div>
                   </div>
                   <div class="row px-md-5">
@@ -159,7 +161,7 @@
                       <p class="text-left">James Parker</p>
                     </div>
                     <div class="col-3">
-                      <p class="text-right">-20.23</p>
+                      <p class="text-right">-$20.23</p>
                     </div>
                   </div>
                   <div class="row px-md-5">
@@ -170,7 +172,7 @@
                       <p class="text-left">Sarah Morgan</p>
                     </div>
                     <div class="col-3">
-                      <p class="text-right">45.24</p>
+                      <p class="text-right">$45.24</p>
                     </div>
                   </div>
                   <div class="row px-md-5">
@@ -181,7 +183,7 @@
                       <p class="text-left">Sam William</p>
                     </div>
                     <div class="col-3">
-                      <p class="text-right">-94.67</p>
+                      <p class="text-right">-$94.67</p>
                     </div>
                   </div>
                   <div class="px-md-5 row">
@@ -192,11 +194,11 @@
                       <p class="text-left">Daniel Norman</p>
                     </div>
                     <div class="col-3">
-                      <p class="text-right">21.78</p>
+                      <p class="text-right">$21.78</p>
                     </div>
                   </div>
                   <div class="section-divider"></div>
-                  <div class="p-3 text-center">
+                  <div class="p-3 text-center " style="position: absolute;bottom:0%;" >
                     <a href="#" class="btn btn-primary text-white px-4 "><span class="caption">See More Activity</span></a>
                   </div>
                 </div>
@@ -222,10 +224,12 @@
                           </div>
                         </div>
                   </div>
+                  <div class="tile-footer"> 
                   <div class="section-divider"></div>
-                  <div class="p-3">
+                  <div class="p-3 text-center">
                       <a href="#" class="btn btn-primary text-white px-4"><span class="caption">Learn More</span></a>
                     </div>
+                  </div>
                 </div>
           </div>
 
