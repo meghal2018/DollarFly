@@ -56,3 +56,69 @@
     background-color: black;
     border-color: black;
 }
+
+
+
+/*This will create the speech dialog box for the medium or higher sized screens*/
+  .speech {
+    position: relative;
+    font-family: arial;
+    font-size: 1.1em;
+    background: #034223;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+  }
+  
+.bottom:after {
+    /* [THESE WILL CREATE THE TRIANGLE] */
+    content: '';
+    border: 20px solid transparent;
+    border-top-color: #034223;
+    border-bottom: 0;
+    /* [THESE WILL POSITION THE TRIANGLE] */
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    margin-left: -20px;
+  }
+  
+.top:after {
+    content: '';
+    border: 20px solid transparent;
+    border-bottom-color: #034223;
+    border-top: 0;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    margin-left: -20px;
+  }
+  
+.left:after {
+    content: '';
+    border: 20px solid transparent;
+    border-right-color: #034223;
+    border-left: 0;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    margin-top: -20px;
+  }
+  
+  #speech .right:after {
+    content: '';
+    border: 20px solid transparent;
+    border-left-color: #034223;
+    border-right: 0;
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    margin-top: -20px;
+  }
+
+.site-card-height{
+    height: 480px;
+
+  }
+
