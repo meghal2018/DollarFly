@@ -115,7 +115,8 @@ a {
   padding: 3em 0; }
   @media (min-width: 768px) {
     .site-section {
-      padding: 7em 0; } }
+      /*padding: 7em 0;*/
+      padding: 3em 0; } }
   .site-section.site-section-sm {
     padding: 4em 0; }
 
@@ -239,8 +240,8 @@ a {
     font-weight: 200; }
     .site-navbar .site-logo a {
       font-weight: 200;
-      font-size: 26px;
-      color: #000; }
+      font-size: 2em;
+      color: #034223; }
   .site-navbar .site-navigation .site-menu {
     margin-bottom: 0; }
     .site-navbar .site-navigation .site-menu .active > a {
@@ -490,7 +491,8 @@ a {
 .site-blocks-cover {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; }
+  background-position: center center; 
+  }
   .site-blocks-cover.overlay {
     position: relative; }
     .site-blocks-cover.overlay:before {
