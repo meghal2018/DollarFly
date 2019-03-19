@@ -5,12 +5,20 @@
     background-color: transparent;
     width: 100%;
 }
-.fas, .fa-question-circle, .fa-user-circle, .fa-wallet{
+.fas, .fa-question-circle, .fa-user-circle {
     color: #034223;
+}
+.fa-wallet {
+    color:white;
+
 }
 
 .fas:hover{
     color:black;
+}
+
+.fa-wallet:hover{
+    color:white;
 }
 
 .navbar{
@@ -40,7 +48,7 @@
     border-top: 1px solid #034223 ; }
 
 .site-color{
-    color: #034223; 
+    color: #034223 !important; 
 }
 
 .site-color-white{
@@ -77,7 +85,16 @@
     border-color: black;
 }
 
+.button-wallet{
+    background-color: #034223 !important;
+    border-color: #034223 !important;
+}
 
+.btn-outline-primary:hover{
+    background-color: #034223;
+    border-color: #034223;
+    color: #fff;
+}
 
 /*This will create the speech dialog box for the medium or higher sized screens*/
   .speech {
