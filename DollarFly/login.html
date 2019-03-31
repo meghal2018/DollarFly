@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Work+Sans:300,400,700" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="fonts/icomoon/amay.css"> -->
+    <link rel="stylesheet" href="fonts/icomoon/amay.css">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -27,32 +27,6 @@
 
     <link rel="stylesheet" href="css/amay.css">
     <link rel="stylesheet" href="css/style1.css">
-
-    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
-    <script src="js/dollarfly.js"></script>
-    <script>
-    function myFunction() {
-
-      var txtEmail = document.getElementById('email').value;
-      var txtPassword = document.getElementById('password').value;
-      var btnLogIn = document.getElementById('logInBtn');
-      firebase.auth().signInWithEmailAndPassword(txtEmail, txtPassword).catch(function(error) {
-            // Handle Errors here.
-            var errorCode = error.code;
-            var errorMessage = error.message;
-            // [START_EXCLUDE]
-            if (errorCode === 'auth/wrong-password') {
-              alert('Wrong password.');
-            } else {
-              alert(errorMessage);
-            }
-            console.log(error);
-            document.getElementById('quickstart-sign-in').disabled = false;
-            // [END_EXCLUDE]
-          });
-    }
-    </script>
-
 </head>
 <body style="background-image: url('images/bg.jpg');">
 
@@ -78,7 +52,7 @@
              <a class="signup-page-navbar-right ml-auto" href="#">SEND MONEY &nbsp </a>
              <a class="signup-page-navbar-right" href="#">REFER A FRIEND &nbsp </a>
              <a class="signup-page-navbar-right" href="#">ABOUT US &nbsp</a>
-
+           
             <span class="d-inline-block p-3 bg-primary text-white btn btn-primary site-background-color-border site-color">HELP</span>
 
             <!--<a class="signup-page-navbar-right" href="#">&nbsp Help </a>-->
@@ -91,10 +65,10 @@
                     <hr>
 
                     <!--<label for="email"><b>Email</b></label><br>-->
-                    <input id="email" type="text" placeholder="Email" name="email" required><br>
+                    <input type="text" placeholder="Email" name="email" required><br>
 
                     <!--<label for="psw"><b>Password</b></label><br>-->
-                    <input id="password" type="password" placeholder="Password" name="psw" required><br>
+                    <input type="password" placeholder="Password" name="psw" required><br>
 
 
                     <label>
@@ -103,7 +77,7 @@
                     </label>
 
                     <div class="clearfix">
-                        <button id="logInBtn" type="submit" class="d-inline-block p-3 bg-primary text-white btn btn-primary site-background-color-border site-color" onclick="myFunction()">LogIn</button>
+                        <button type="submit" class="d-inline-block p-3 bg-primary text-white btn btn-primary site-background-color-border site-color">LogIn</button>
                         <a class="cancelbtn site-color" href="#">&nbsp Cancel </a>
                         <div> <a class="signup-page-navbar-right" href="#"><u>Create Account</u> </a> </div>
                         <!--<button type="button" class="cancelbtn">Cancel</button>-->
@@ -179,7 +153,7 @@
         </footer>
 
     </div>
-
+    
 
 
 
